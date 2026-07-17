@@ -53,3 +53,29 @@
 - [ ] **DPL-031:** IaC（Infrastructure as Code）のメリットを説明できる。
 - [ ] **DPL-032:** Terraformの基本的な役割を説明できる。
 - [ ] **DPL-033:** コンテナオーケストレーションツール（Kubernetes, ECSなど）の必要性を説明できる。
+
+---
+## 8.5. 環境と設定
+- [ ] **DPL-034:** 開発、ステージング、本番環境の役割の違いを説明できる。
+- [ ] **DPL-035:** Git-flowやGitHub Flowなどのブランチ戦略を説明できる。
+- [ ] **DPL-036:** 環境変数で設定を管理する重要性を説明できる。
+- [ ] **DPL-037:** Secret Manager（AWS KMS, GCP Secret Managerなど）の役割を説明できる。
+- [ ] **DPL-038:** Gitのタグを使ったバージョン管理の方法を説明できる。
+- [ ] **DPL-039:** CHANGELOGの重要性を説明できる。
+- [ ] **DPL-040:** `ssh`を使ってサーバーにログインできる。
+- [ ] **DPL-041:** `scp`を使ってサーバーにファイルを転送できる。
+- [ ] **DPL-042:** CI/CDパイプラインの実行時間を計測し、ボトルネックを特定する。
+- [ ] **DPL-043:** パイプラインのキャッシュを活用して、ビルド時間を短縮する。
+- [ ] **DPL-044:** モノレポとマルチレポのメリット・デメリットを説明できる。
+- [ ] **DPL-045:** Kubernetesの基本的なコンポーネント（Pod, Deployment, Service）を説明できる。
+- [ ] **DPL-046:** HelmやKustomizeなどのKubernetesパッケージ管理ツールの役割を説明できる。
+- [ ] **DPL-047:** GitOpsの基本的な考え方を説明できる。
+- [ ] **DPL-048:** Argo CDやFluxなどのGitOpsツールの名前を挙げられる。
+- [ ] **DPL-049:** サーバープロビジョニングツール（Ansible, Chef, Puppet）の役割を説明できる。
+- [ ] **DPL-050:** AWS CDKを使い、S3バケットを1つ作成するTypeScriptコードを記述する（ローカル完結）。
+  <details>
+  <summary>手を動かす</summary>
+  - `cdk init app --language typescript` でプロジェクトを初期化する。
+  - `lib/xxx-stack.ts` に、`new s3.Bucket(...)` のようにS3バケットを定義するコードを記述する。
+  - `cdk synth` を実行し、生成されるCloudFormationテンプレートを確認する。
+  </details>
