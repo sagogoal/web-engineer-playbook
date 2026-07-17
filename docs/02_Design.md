@@ -7,7 +7,7 @@
   <summary>手を動かす</summary>
   - 「ユーザーがログインボタンを押し、APIサーバーがDBを検証して、トークンを返す」という流れをMermaidのシーケンス図として記述する。
   </details>
-- [ ] **DGN-002:** Mermaid記法を使い、ER図を作成できる。
+- [x] **DGN-002:** Mermaid記法を使い、ER図を作成できる。 (2026-07-18)
   <details>
   <summary>手を動かす</summary>
   - 「1人のユーザーは複数の投稿を持つ（1対多）」という関係を、`users`と`posts`テーブルのER図としてMermaidで記述する。
