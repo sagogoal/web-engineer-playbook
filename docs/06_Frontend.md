@@ -78,3 +78,65 @@
 - [ ] **FE-048:** ESLintとPrettierを使い、コードの静的解析とフォーマットを自動化する。
 - [ ] **FE-049:** ブラウザのDevTools（Elements, Console, Networkパネル）の基本的な使い方を説明できる。
 - [ ] **FE-050:** Webアクセシビリティ（a11y）の重要性と、`alt`属性などの基本的な実践方法を説明できる。
+---
+## 6.8. ブラウザとWeb API
+- [ ] **FE-051:** DOMと仮想DOM（Virtual DOM）の違いを説明できる。
+- [ ] **FE-052:** ブラウザのレンダリングプロセス（クリティカルレンダリングパス）の概要を説明できる。
+- [ ] **FE-053:** Local Storage, Session Storage, Cookieの使い分けを説明できる。
+- [ ] **FE-054:** Web Storage APIを使い、ブラウザにデータを保存・取得する。
+- [ ] **FE-055:** Intersection Observer APIのユースケース（画像の遅延読み込みなど）を説明できる。
+- [ ] **FE-056:** Web Workersを使い、重い処理をメインスレッドから分離する方法を説明できる。
+- [ ] **FE-057:** Service Workerの役割（オフライン対応、プッシュ通知）を説明できる。
+- [ ] **FE-058:** PWA（Progressive Web Apps）の基本的な概念を説明できる。
+
+---
+## 6.9. フレームワーク発展
+- [ ] **FE-059:** Next.jsのレンダリング戦略（SSR, SSG, ISR）の違いを説明できる。
+- [ ] **FE-060:** エラーバウンダリーの役割と実装方法を説明できる。
+- [ ] **FE-061:** ReactのPortalsのユースケース（モーダルダイアログなど）を説明できる。
+- [ ] **FE-062:** `useReducer`フックが`useState`と比べて適しているケースを説明できる。
+- [ ] **FE-063:** debounceとthrottleの違いを説明できる。
+- [ ] **FE-064:** 再レンダリングのパフォーマンスをReact DevToolsを使ってプロファイリングする。
+- [ ] **FE-065:** TypeScriptでReactコンポーネントのPropsに型を付ける。
+- [ ] **FE-066:** zodなどのライブラリを使い、フォームやAPIレスポンスのスキーマバリデーションを行う。
+- [ ] **FE-067:** マイクロフロントエンドの基本的な考え方を説明できる。
+- [ ] **FE-068:** WebAssembly（Wasm）がどのような課題を解決するか説明できる。
+
+---
+## 6.10. TypeScript/React 実践
+- [ ] **FE-069:** zodを使い、APIレスポンスの型をランタイムで検証する型ガードを実装する。
+- [ ] **FE-070:** `React.FC`を使わずにコンポーネントの型を定義するメリットを説明できる。
+- [ ] **FE-071:** React Hook FormとZodを組み合わせて、型安全なフォームを作成する。
+- [ ] **FE-072:** Storybookで、コンポーネントの様々な状態（`isLoading`, `error`など）を可視化する。
+- [ ] **FE-073:** JestとReact Testing Libraryを使い、カスタムフックのテストを記述する。
+- [ ] **FE-074:** MSW (Mock Service Worker) を導入し、ブラウザレベルでAPIをモックして開発する。
+- [ ] **FE-075:** Next.jsのApp RouterとServer Componentsの基本的な概念を説明できる。
+- [ ] **FE-076:** `server-only`と`client-only`パッケージの役割を説明できる。
+- [ ] **FE-077:** Next.jsのRoute Handlersを使って、簡単なAPIエンドポイントを作成する。
+- [ ] **FE-078:** VercelにNext.jsアプリケーションをデプロイする。
+- [ ] **FE-079:** `useSWR`や`useQuery`のキャッシュキーの管理戦略を説明できる。
+- [ ] **FE-080:** TanStack Table (React Table) を使って、ソート・フィルタ・ページネーション機能を持つテーブルを実装する。
+- [ ] **FE-081:** dnd-kitやReact DnDを使って、ドラッグ&ドロップ機能を実装する。
+- [ ] **FE-082:** RechartsやChart.jsを使い、簡単なグラフを描画する。
+- [ ] **FE-083:** LighthouseのスコアをCI/CDプロセスに組み込む方法を調べる。
+- [ ] **FE-084:** playwrightを使い、E2EテストをTypeScriptで記述する。
+- [ ] **FE-085:** `React.Suspense`と非同期コンポーネントを組み合わせて、データ取得中のローディングUIを宣言的に実装する。
+- [ ] **FE-086:** ValtioやJotaiのようなProxyベースの状態管理ライブラリの基本的な使い方を学ぶ。
+- [ ] **FE-087:** TurborepoやNxを使ってモノレポを構築し、複数のアプリケーションやパッケージを管理する。
+- [ ] **FE-088:** Chromaticを使い、UIコンポーネントのVisual Regression Testを自動化する。
+- [ ] **FE-089:** shadcn/ui や Headless UI のような、より低レベルなUIコンポーネントライブラリの利点を説明できる。
+- [ ] **FE-090:** `as`キーワードによる型キャストの代わりに、型ガード関数を実装する。
+  <details>
+  <summary>手を動かす</summary>
+  - `animal.swim()` のようなコードを書くために、`isFish(animal): animal is Fish` のような、`is`キーワードを使ったユーザー定義型ガード関数を実装する。
+  </details>
+- [ ] **FE-091:** `satisfies`演算子のユースケースを説明できる。
+- [ ] **FE-092:** TypeScriptの`tsconfig.json`における`strict: true`の重要性を説明できる。
+- [ ] **FE-093:** tRPCの基本的な考え方と、REST/GraphQLとの違いを説明できる。
+- [ ] **FE-094:** App Routerでの`fetch`のキャッシュと再検証（revalidate）の仕組みを説明できる。
+- [ ] **FE-095:** Server Actionsの基本的な使い方を学ぶ。
+- [ ] **FE-096:** `useOptimistic`フックを使って、楽観的UIを実装する。
+- [ ] **FE-097:** Reactの`forwardRef`と`useImperativeHandle`のユースケースを説明できる。
+- [ ] **FE-098:** Framer MotionやReact Springを使って、簡単なアニメーションを実装する。
+- [ ] **FE-099:** Million.jsやBlock Virtual DOMのコンセプトを説明できる。
+- [ ] **FE-100:** Vitestと`@testing-library/react`を使い、コンポーネントのスナップショットテストを記述する。
